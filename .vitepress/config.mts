@@ -79,19 +79,19 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //banner区配置
-    videoBanner: false,
+    videoBanner: true,
     name: "Sensei's 部落格",
-    welcomeText: 'Hello, VitePress',
+    welcomeText: 'Hello, Sensei',
     motto: ['和你的日常，就是奇迹', '何気ない日常で、ほんの少しの奇跡を見つける物語。'],
     social: [
-      { icon: 'github', url: 'https://github.com/' },
-      { icon: 'bilibili', url: 'https://www.bilibili.com/' },
-      { icon: 'qq', url: 'https://im.qq.com/index/' },
-      { icon: 'wechat', url: 'https://weixin.qq.com/' },
+      { icon: 'github', url: 'https://github.com/bbdqz' },
+      { icon: 'bilibili', url: 'https://www.bilibili.com/521388593' },
+      //{ icon: 'qq', url: 'https://im.qq.com/index/' },
+      //{ icon: 'wechat', url: 'https://weixin.qq.com/' },
     ],
 
     //spine语音配置，可选zh/jp
-    spineVoiceLang: 'jp',
+    spineVoiceLang: 'zh',
 
     //footer配置
     footerName: 'Sensei',
@@ -101,11 +101,11 @@ export default defineConfigWithTheme<ThemeConfig>({
     ],
 
     //gitalk配置
-    clientID: 'Ov23lia9U9wFN3WMyoKK',
-    clientSecret: 'b2418ab598c188c43a247c99e728dd2735d58c3b',
-    repo: 'vitepress-theme-bluearchive',
-    owner: 'Alittfre',
-    admin: ['Alittfre'],
+    clientID: 'Ov23lilrELCO3A1ivbTE',
+    clientSecret: '49231bed049911623d82c12cfe7631f96abceb02',
+    repo: 'bbdqz.github.io',
+    owner: 'bbdqz',
+    admin: ['bbdqz'],
   },
   markdown: {
     theme: 'solarized-dark',
